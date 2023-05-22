@@ -1,0 +1,21 @@
+@import "../default.scss";
+
+.article-filter {
+    margin-left: steps(2);
+    label {
+        color: $button-primary;
+        margin-right: steps(5);
+        text-decoration: underline;
+    }
+    select {
+        margin: steps(2);
+        padding: steps(2);
+        background: transparent;
+        color: $button-primary;
+        border-radius: steps(2);
+    }
+
+    select>option {
+        color: $button-primary;
+    }
+}

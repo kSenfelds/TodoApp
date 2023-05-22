@@ -1,0 +1,18 @@
+@import "./default.scss";
+
+body {
+  background: rgb(236, 236, 185)
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center; 
+}
+
+h1 {
+  margin: steps(5) auto;
+  color: $color-primary;
+  text-decoration: underline;
+  font-weight: lighter;
+}

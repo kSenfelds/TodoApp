@@ -1,0 +1,31 @@
+@import "../default.scss";
+
+
+.item {
+  border: 1px solid $button-primary;
+  border-radius: steps(1);
+  padding: steps(1) steps(2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: steps(2);
+  background: $color-primary;
+  font-family: "Montserrat", sans-serif;
+  h1 {
+    color: $button-secondary
+  }
+}
+.checkbox {
+    margin-left: steps(10);
+    width: steps(10);
+    height: steps(10);   
+    accent-color: green;
+}
+.item-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.ul {
+  padding: 0px;
+}

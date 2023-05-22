@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "React learning ",
+      "description": "It's fun it's challenging, It's necessary.",
+      "category": "Category 1",
+      "imageLink": "https://fastly.picsum.photos/id/668/4133/2745.jpg?hmac=n2-nIVXnrSE_pCjAmI-nlhBicoySz1xq-KUFMr9ERrM"
+    },
+    {
+      "id": 2,
+      "title": "SCSS",
+      "description": "It's fun it's challenging, It's necessary.",
+      "category": "Category 2",
+      "imageLink": "https://fastly.picsum.photos/id/836/5000/3333.jpg?hmac=vERoknhLmVMMlcmXhqfS1YvkbPIqt6cyMnU-cLJKddk"
+    },
+    {
+      "id": 4,
+      "title": ".NetCore",
+      "description": "It's fun it's challenging, It's necessary.\n\nIt's hard!",
+      "category": "Category 1",
+      "imageLink": "https://fastly.picsum.photos/id/901/4016/4016.jpg?hmac=1rDqVF-p5zoRrKvKU1pHRho-8ervt8RaiXEccYvbRHg"
+    },
+    {
+      "id": 5,
+      "title": "C#",
+      "description": "It's fun it's challenging, It's necessary.",
+      "category": "Category 1",
+      "imageLink": "https://fastly.picsum.photos/id/1010/5000/3333.jpg?hmac=CuwA5P9jjX0HXsLl6IzkF6a7YHmXujB7zLwbtdRPEyM"
+    }
+  ]
+}

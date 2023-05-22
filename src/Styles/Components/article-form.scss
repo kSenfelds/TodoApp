@@ -1,0 +1,21 @@
+@import "../default.scss";
+
+
+.article-form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 2px solid $button-primary;
+    border-radius: steps(6);
+    padding: steps(4);
+
+    row-gap: steps(4);
+    max-width: 600px;
+    margin: steps(4) auto;
+
+
+    label{
+        text-decoration: underline;
+        font-size: 1.5rem;
+    }
+}

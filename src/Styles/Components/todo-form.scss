@@ -1,0 +1,39 @@
+@import "../default.scss";
+
+  
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: transparent;
+    border-radius: steps(6);
+    padding: steps(4) auto;
+    max-width: 600px;
+    margin: steps(5) auto;
+    border: 1px solid black;
+
+
+    label{
+        color: black;
+        margin: steps(4) auto;
+        font-size: steps(5);
+    }
+    input {
+        color: black;
+        padding: steps(5);
+        max-height: steps(1);
+        margin: steps(5);
+        border-radius: steps(5);
+        display: flex;
+        background: transparent;
+        
+    }
+    ::placeholder{
+        text-align: center;
+        color:black;
+    }
+    button {
+        margin: steps(2) auto;
+    }
+}

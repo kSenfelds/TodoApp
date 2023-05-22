@@ -1,0 +1,79 @@
+@import "../default.scss";
+
+.article-list {
+    padding: steps(1);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+
+    @include at-least ($tablet){
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $button-primary;
+    color: $color-white;
+    border-radius: steps(5);
+    margin: steps(2);
+    text-align: center;
+    overflow: hidden;
+
+    img {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    a {
+        width: 100%;
+
+        @include at-least ($tablet){
+            width: 50%;
+        }
+    }
+    
+
+    @include at-least ($tablet){
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        column-gap: steps(4);
+        align-items: center;
+    }
+}
+.article-content {
+    display: flex;
+    flex-direction: column;
+    color: $button-primary;
+    
+}
+.card-buttons{
+    margin: steps(2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include at-least ($tablet){
+        flex-direction: column;
+        column-gap: steps(4);
+        align-items: center;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.container-add {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Loading {
+    color: $button-primary;
+    margin-left: steps(5);
+}
+h1 {
+    margin: steps(5) auto;
+}

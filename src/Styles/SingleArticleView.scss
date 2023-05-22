@@ -1,0 +1,38 @@
+@import "./default.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        border-radius: steps(5);
+        max-width: 900px;
+        max-height: 900px;
+    }
+    
+    button {
+        max-width: 200px;
+        margin: steps(2) auto;
+    }
+}
+.container-content {
+    display: flex;
+    flex-direction: row;
+    margin: steps(5);
+    padding: steps(5);
+
+    .container-text {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-content: center;
+        margin-left: steps(10);
+    }
+    p {
+        margin: steps(3) auto;
+        color: $button-primary;
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: 500;
+    }
+}
